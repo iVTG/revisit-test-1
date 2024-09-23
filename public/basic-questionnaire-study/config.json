@@ -84,7 +84,19 @@
             "instruction": "Click on the largest bar",
             "parameters": {
                 "barData": [0.32, 0.01, 1.2, 1.3, 0.82, 0.4, 0.3]
-            }
+            },
+            "response": [
+        {
+          "id": "html-response",
+          "prompt": "Answer:",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical",
+          "placeholder": "0-7",
+          "min": 0,
+          "max": 7
+        }
+      ]
         },
         "bar-chart-2":{
             "baseComponent": "bar-chart",
@@ -92,7 +104,19 @@
             "instruction": "Click on the smallest bar",
             "parameters": {
                 "barData": [1.2, 1.2, 1.2, 1.3, 0.82, 0.4, 0.3]
-            }
+            },
+            "response": [
+        {
+          "id": "html-response",
+          "prompt": "Answer:",
+          "required": true,
+          "location": "sidebar",
+          "type": "numerical",
+          "placeholder": "0-7",
+          "min": 0,
+          "max": 7
+        }
+      ]
         }
     },
     "sequence": {
