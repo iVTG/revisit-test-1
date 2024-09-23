@@ -103,6 +103,18 @@
             "instruction": "Two values are marked with dots. \n\nWhat percentage do you believe the smaller value represents relative to the larger value?",
             "type": "react-component",
             "path": "demo-cleveland/assets/BarChart.tsx",
+            "response": [
+                {
+                "id": "html-response",
+                "prompt": "Answer:",
+                "required": true,
+                "location": "sidebar",
+                "type": "numerical",
+                "placeholder": "0-7",
+                "min": 0,
+                "max": 7
+                }
+            ],
             "parameters": {
                 "data": [
                     {
