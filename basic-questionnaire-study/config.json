@@ -93,56 +93,6 @@
             "parameters": {
                 "barData": [1.2, 1.2, 1.2, 1.3, 0.82, 0.4, 0.3]
             }
-        },
-        "barChart": {
-            "meta": {
-                "difficulty": 5,
-                "chart": "Bar"
-            },
-            "description": "A chart with correct answer of 0.66",
-            "instruction": "Two values are marked with dots. \n\nWhat percentage do you believe the smaller value represents relative to the larger value?",
-            "type": "react-component",
-            "path": "demo-cleveland/assets/BarChart.tsx",
-            "response": [
-                {
-                "id": "html-response",
-                "prompt": "Answer:",
-                "required": true,
-                "location": "sidebar",
-                "type": "numerical",
-                "placeholder": "0-7",
-                "min": 0,
-                "max": 7
-                }
-            ],
-            "parameters": {
-                "data": [
-                    {
-                        "name": "A",
-                        "value": "30"
-                    },
-                    {
-                        "name": "B",
-                        "value": "40"
-                    },
-                    {
-                        "name": "C",
-                        "value": "50"
-                    },
-                    {
-                        "name": "D",
-                        "value": "40"
-                    },
-                    {
-                        "name": "E",
-                        "value": "60"
-                    }
-                ],
-                "selectedIndices": [
-                    1,
-                    4
-                ]
-            }
         }
     },
     "sequence": {
@@ -152,8 +102,7 @@
             "first-question-set",
             "second-question-set",
             "bar-chart-1",
-            "bar-chart-2",
-            "barChart"
+            "bar-chart-2"
         ]
     },
     "baseComponents": {
